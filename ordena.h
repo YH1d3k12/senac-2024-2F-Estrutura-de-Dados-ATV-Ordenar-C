@@ -5,12 +5,11 @@ void selection(int vet[],int tamanho)
 	// Itera sobre o vetor.
 	for(i = 0; i < tamanho; i++)
   	{
+		// Verifica qual é o menor valor para a posição i.
   		for(j = i+1; j < tamanho; j++ )
   		{
-			// Verifica se o valor na posição i é maior que o valor na posição j (posição seguinte a i).
   			if(vet[i] > vet[j])
   			{
-				// Se for menor, armazena o valor de j em variável auxiliar (menor).
   				menor = j;
   				
 			}
